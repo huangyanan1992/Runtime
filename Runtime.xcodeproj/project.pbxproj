@@ -13,6 +13,9 @@
 		6601D0DE1BEF82CC00AA9AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6601D0DC1BEF82CC00AA9AFE /* Main.storyboard */; };
 		6601D0E01BEF82CC00AA9AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6601D0DF1BEF82CC00AA9AFE /* Assets.xcassets */; };
 		6601D0E31BEF82CC00AA9AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6601D0E11BEF82CC00AA9AFE /* LaunchScreen.storyboard */; };
+		661E60B01BFF21CA0048FD45 /* UIViewController+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E60AF1BFF21CA0048FD45 /* UIViewController+AOP.m */; };
+		661E60B31BFF2A150048FD45 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E60B21BFF2A150048FD45 /* TestViewController1.m */; };
+		661E60B61BFF2A1F0048FD45 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E60B51BFF2A1F0048FD45 /* TestViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		6601D0DF1BEF82CC00AA9AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6601D0E21BEF82CC00AA9AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6601D0E41BEF82CC00AA9AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661E60AE1BFF21CA0048FD45 /* UIViewController+AOP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AOP.h"; sourceTree = "<group>"; };
+		661E60AF1BFF21CA0048FD45 /* UIViewController+AOP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AOP.m"; sourceTree = "<group>"; };
+		661E60B11BFF2A150048FD45 /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		661E60B21BFF2A150048FD45 /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		661E60B41BFF2A1F0048FD45 /* TestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
+		661E60B51BFF2A1F0048FD45 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				6601D0D61BEF82CB00AA9AFE /* AppDelegate.h */,
 				6601D0D71BEF82CB00AA9AFE /* AppDelegate.m */,
+				661E60AE1BFF21CA0048FD45 /* UIViewController+AOP.h */,
+				661E60AF1BFF21CA0048FD45 /* UIViewController+AOP.m */,
 				6601D0D91BEF82CB00AA9AFE /* ViewController.h */,
 				6601D0DA1BEF82CC00AA9AFE /* ViewController.m */,
+				661E60B11BFF2A150048FD45 /* TestViewController1.h */,
+				661E60B21BFF2A150048FD45 /* TestViewController1.m */,
+				661E60B41BFF2A1F0048FD45 /* TestViewController2.h */,
+				661E60B51BFF2A1F0048FD45 /* TestViewController2.m */,
 				6601D0DC1BEF82CC00AA9AFE /* Main.storyboard */,
 				6601D0DF1BEF82CC00AA9AFE /* Assets.xcassets */,
 				6601D0E11BEF82CC00AA9AFE /* LaunchScreen.storyboard */,
@@ -150,8 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6601D0DB1BEF82CC00AA9AFE /* ViewController.m in Sources */,
+				661E60B61BFF2A1F0048FD45 /* TestViewController2.m in Sources */,
+				661E60B01BFF21CA0048FD45 /* UIViewController+AOP.m in Sources */,
 				6601D0D81BEF82CB00AA9AFE /* AppDelegate.m in Sources */,
 				6601D0D51BEF82CB00AA9AFE /* main.m in Sources */,
+				661E60B31BFF2A150048FD45 /* TestViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +316,7 @@
 				6601D0E91BEF82CC00AA9AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
